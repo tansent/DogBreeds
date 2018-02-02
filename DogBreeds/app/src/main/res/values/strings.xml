@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dog Breeds</string>
+
+    <string name="about_author">Author: Tansent (Jingtian)</string>
+    <string name="about_project">Project Introduction:\nDog Breeds, an app that demonstrates a variety of doggies.</string>
+
+    <string name="dog_breeds">Dog Breeds</string>
+    <string name="dog_breed_title">dog_breed_title</string>
+
+</resources>

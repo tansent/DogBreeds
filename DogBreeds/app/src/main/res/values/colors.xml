@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673bb7</color>
+    <color name="colorPrimaryDark">#512da7</color>
+    <color name="colorAccent">#ff5521</color>
+
+    <color name="colorTheme">#673bb7</color>
+    <color name="colorWhite">#ffffffff</color>
+
+    <color name="menu_bg_press">#cecece</color>
+    <color name="menu_bg_normal">#f0f1f3</color>
+
+    <color name="black">#000</color>
+    <color name="itemBackgroundWhite">#cfff</color>
+    <color name="itemBackground">#DD7D7D7D</color>
+    <color name="tabBackground">#777D7D7D</color>
+    <color name="itemLowBackground">#d9d9d9</color>
+    <color name="colorTabText">#585858</color>
+
+    <color name="colorSubtitle">#999</color>
+
+    <color name="colorTitle">#666</color>
+
+    <color name="colorPageBg">#f2f4f5</color>
+
+    <color name="colorContent">#ff333333</color>
+
+    <color name="colorSmallRed">#faebeb</color>
+
+    <color name="colorHomeLine">#D4D4D4</color>
+    <color name="bottom_text">#a9a9a9</color>
+
+    <color name="halfTranslucent">#1000</color>
+    <color name="translucent">#0fff</color>
+
+    <color name="comment_text">#5b5d5c</color>
+    <color name="comment_reply">#9ba4a3</color>
+    <color name="comment_btn">#bfbfbf</color>
+    <color name="comment_line">#dddddd</color>
+
+    <color name="comment_at">#5d8698</color>
+    <color name="colorText">#2C2C2C</color>
+    <color name="colorRateRed">#FB5B81</color>
+
+    <color name="colorLineItem">#FFDDDDDD</color>
+
+    <color name="colorLatestRead">#ff9d00</color>
+
+
+    <color name="album_default_palette_color_dark">#ff343a49</color>
+    <color name="colorPrimaryDarkTheme">#ff343a49</color>
+    <color name="colorPrimaryDarkDarkTheme">#ff2a2e3a</color>
+    <color name="colorAccentDarkTheme">#ffffffff</color>
+    <color name="colortest">#FF4D8DFF</color>
+    <color name="colortest1">#FF37B7FB</color>
+</resources>

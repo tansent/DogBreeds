@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/ll_all"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ripple_one_item_bg"
+        android:orientation="vertical"
+        android:paddingTop="22dp">
+
+        <TextView
+            android:id="@+id/tv_dog_breed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breed Name"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/colorSubtitle"
+            android:textSize="26sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+
+            <ImageView
+                android:id="@+id/iv_dog1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/default_dog" />
+
+            <ImageView
+                android:id="@+id/iv_dog2"
+                android:layout_toRightOf="@id/iv_dog1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/default_dog"/>
+
+            <ImageView
+                android:id="@+id/iv_dog3"
+                android:layout_toRightOf="@id/iv_dog2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/default_dog"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_more_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="13dp"
+                android:textColor="@color/colorPrimary"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="View More Photos" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

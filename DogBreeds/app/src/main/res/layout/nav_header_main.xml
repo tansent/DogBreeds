@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPageBg"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/photo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/menu_icon_bg"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_photo"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@mipmap/dog_icon"
+                android:padding="5dip"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/image_photo"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/dog_breeds"
+                    android:textColor="#2b2b2b"
+                    android:textSize="22dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#1a000000" />
+
+        <FrameLayout
+            android:id="@+id/fl_theme_color"
+            style="@style/home.fragment">
+
+            <TextView
+                style="@style/home.textview"
+                android:drawableLeft="@mipmap/ic_theme"
+                android:text="Theme" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#1a000000" />
+
+        <FrameLayout
+            android:id="@+id/fl_about_us"
+            style="@style/home.fragment">
+
+            <TextView
+                style="@style/home.textview"
+                android:drawableLeft="@mipmap/ic_about"
+                android:text="About" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#1a000000" />
+
+        <FrameLayout
+            android:id="@+id/fl_setting"
+            style="@style/home.fragment">
+
+            <TextView
+                style="@style/home.textview"
+                android:drawableLeft="@mipmap/ic_setting"
+                android:text="Setting" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#1a000000" />
+
+        <FrameLayout
+            android:id="@+id/fl_feedback"
+            style="@style/home.fragment">
+
+        <TextView
+            style="@style/home.textview"
+            android:drawableLeft="@mipmap/ic_feedback"
+            android:text="Feedback" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#1a000000" />
+
+        <FrameLayout
+            android:id="@+id/fl_exit_app"
+            style="@style/home.fragment">
+
+            <TextView
+                style="@style/home.textview"
+                android:drawableLeft="@mipmap/ic_exit"
+                android:text="Exit" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#1a000000" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
